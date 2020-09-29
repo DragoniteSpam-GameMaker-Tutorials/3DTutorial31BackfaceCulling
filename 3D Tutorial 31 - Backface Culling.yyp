@@ -106,6 +106,7 @@
     {"CopyToMask":9223372036854775807,"filePath":"datafiles","resourceVersion":"1.0","name":"Collisions.dll","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ball.d3d","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"sphere.d3d","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"one-way-wall.d3d","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.0.529",

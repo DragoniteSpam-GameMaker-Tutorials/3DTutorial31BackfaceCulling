@@ -4,6 +4,8 @@
 gpu_set_ztestenable(true);
 gpu_set_zwriteenable(true);
 
+gpu_set_cullmode(cull_counterclockwise);
+
 view_mat = undefined;
 proj_mat = undefined;
 
@@ -41,6 +43,7 @@ vertex_begin(vbuffer, vertex_format);
 
 // Create a checkerboard pattern on the floor
 var s = 128;
+
 for (var i = 0; i < room_width; i += s) {
     for (var j = 0; j < room_height; j += s) {
         if ((i % (s * 2) == 0 && j % (s * 2) == 0) || (i % (s * 2) > 0 && j % (s * 2) > 0)) {
@@ -72,6 +75,8 @@ vb_cube = load_model("cube.d3d");
 vb_octagon = load_model("octagon.d3d");
 
 vb_sphere = load_model("sphere.d3d");
+
+vb_one_way_wall = load_model("one-way-wall.d3d");
 
 ///////////////////////////////////////////////////
 
